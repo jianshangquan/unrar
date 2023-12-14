@@ -23,7 +23,7 @@ async function main(){
             program.option('-p, -password <filepath>', 'password');
             program.option('-o, -output <filepath>', 'file output');
             program.option('-i, -input <filepath>', 'input rar file output');
-            program.version('1.0.0','-v, --ver', 'output the current version');
+            program.version('0.0.2','-v, --ver', 'output the current version');
             program.parse();
             const opts = program.opts();
             console.log(opts);
