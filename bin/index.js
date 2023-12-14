@@ -26,7 +26,7 @@ async function main(){
             program.version('0.0.2','-v, --ver', 'output the current version');
             program.parse();
             const opts = program.opts();
-            console.log(opts);
+            // console.log(opts);
 
             const currentDir = process.cwd();
             const input = opts.Input || process.argv[2];
