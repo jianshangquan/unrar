@@ -1,13 +1,13 @@
 {
   "name": "unrar",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./bin/index.js",
   "author": "",
   "type": "module",
   "license": "ISC",
   "bin": {
-    "mycli": "./bin/index.js"
+    "unrar": "./bin/index.js"
   },
   "dependencies": {
     "commander": "^11.1.0",
